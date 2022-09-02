@@ -1,0 +1,22 @@
+h3{
+    font-size: 25px !important;
+    color: black !important;
+    font-family: 'Marck Script', cursive;
+    font-weight: bolder !important;
+}
+
+.btn-primary:hover{
+    background-color:yellowgreen;
+}
+
+canvas{
+    border: 4px white solid;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px red}
+    to{box-shadow:1px 1px 38px yellow}
+    }
